@@ -10,12 +10,8 @@ body {
     background: linear-gradient(rgb(0,0,128), rgb(0,0,0));
     background-repeat: no-repeat;
     background-size: 100%;
-    position: relative;
-}
-
-.container {
-    display: flex;
-    flex-direction: column;
+    padding-bottom: 20px;
+    
 }
 
 .titlediv {
@@ -32,6 +28,17 @@ body {
     width: 100px;
 }
 
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;    
+    height: 90vh;
+    
+    
+}
+
+
+
 .subtitlediv {
     margin-top: 50px;
     display: flex;
@@ -39,16 +46,15 @@ body {
     color: white
 }
 
-.vesselsdiv { 
+.vesselsPlusText { 
     display: flex;
     gap: 50px;    
     justify-content: center;
-    align-items: center;
-    /* border: 1px solid red; */
+    align-items: center;    
     color: #fff
 }
 
-.vesselsdiv img {
+.vesselsPlusText img {
     margin-top: 50px;
     width: 250px;
     border-radius: 5px;
@@ -63,7 +69,6 @@ body {
 .vesseldiv.heroic img:hover {
     scale: 1.1;
 }
-
 
 .vesseldiv {
     display: flex;
@@ -82,29 +87,20 @@ body {
 }
 
 .kingtext {
-    font-size: 13px;
+    display: none;
+    justify-content: center;
+    font-size: 16px;
     color: rgb(170, 170, 10);
 }
 
-.vesselsPlusText {
-    display:flex;
+.bottomcontainer {
+    display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 50px;
+    
 }
 
-.warningtext {
-    color: rgb(172, 172, 0);
-    display: none;
-}
-
-.bottomcontainer {
-    /* position: absolute; */
-    /* bottom: 20px; */
-    margin-top: 150px;
-    display: block;
-}
 
 .bottomdiv {
     color: rgb(167, 152, 152);    
@@ -126,17 +122,12 @@ body {
     }
     
     body {
-        height: 150vh;
+        height: 170vh;
         background: linear-gradient(rgb(0,0,128), rgb(0,0,0));
         background-repeat: no-repeat;
-        background-size: cover;
         background-size: 100%;
-        position: relative;
-    }
-    
-    .container {
-        display: flex;
-        flex-direction: column;
+        /* padding-bottom: 20px; */
+        
     }
     
     .titlediv {
@@ -155,6 +146,18 @@ body {
         width: 100px;
     }
     
+    .container {
+        display: flex;
+        flex-direction: column;        
+        /* justify-content: space-between;     */
+        height: 160vh;
+        border: 1px solid red;
+        
+        
+    }
+    
+    
+    
     .subtitlediv {
         margin-top: 50px;
         display: flex;
@@ -162,23 +165,30 @@ body {
         color: white
     }
     
-    .vesselsdiv { 
+    .vesselsPlusText { 
         display: flex;
-        flex-direction: column;    
+        flex-direction: column;
+        /* gap: 50px;     */
         justify-content: center;
-        gap: 10px;
+        align-items: center;    
         color: #fff
     }
     
-    .vesselsdiv img {
+    .vesselsPlusText img {
         margin-top: 50px;
-        width: 100px;
+        width: 150px;
         border-radius: 5px;
-        cursor: pointer;
-       
+        cursor: pointer;  
     
     }
     
+    .vesseldiv.goliath img:hover {
+        scale: 1.1;        
+    }
+    
+    .vesseldiv.heroic img:hover {
+        scale: 1.1;
+    }
     
     .vesseldiv {
         display: flex;
@@ -188,17 +198,37 @@ body {
         gap: 10px;
     }
     
+    .vesseldiv.king {
+        color: gray
+    }
+    
+    .vesseldiv.king img {
+        opacity: 50%;
+    }
+    
+    .kingtext {
+        display: none;
+        justify-content: center;
+        font-size: 16px;
+        color: rgb(170, 170, 10);
+    }
+    
+    .bottomcontainer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    
+    
     .bottomdiv {
-        color: rgb(167, 152, 152);
-        position: absolute;
-        bottom: 20px;
-        /* left: 35vw; */
+        color: rgb(167, 152, 152);    
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
         gap: 5px;
-        width: 100vw;
     }
     
 }
