@@ -1,0 +1,182 @@
+* {
+    margin: 0;
+    padding: 0;
+    
+
+}
+
+body {
+    height: 100vh;
+    background: linear-gradient(rgb(0,0,128), rgb(0,0,0));
+    background-repeat: no-repeat;
+    background-size: 100%;
+    position: relative;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.titlediv {
+    background-color: darkgrey;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:rgb(32, 31, 31);
+    height: 50px;
+    gap: 100px;
+}
+
+.titlediv img {
+    width: 100px;
+}
+
+.subtitlediv {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    color: white
+}
+
+.vesselsdiv { 
+    display: flex;
+    gap: 50px;    
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid red; */
+    color: #fff
+}
+
+.vesselsdiv img {
+    margin-top: 50px;
+    width: 250px;
+    border-radius: 5px;
+    cursor: pointer;  
+
+}
+
+.vesseldiv img:hover {
+    scale: 1.1;
+    opacity: 50%;
+}
+
+.vesseldiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.vesselsPlusText {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.warningtext {
+    color: rgb(172, 172, 0);
+    display: none;
+}
+
+.bottomdiv {
+    color: rgb(167, 152, 152);
+    position: absolute;
+    bottom: 20px;
+    left: 45vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+
+
+@media only screen and (max-width: 600px) {
+
+    * {
+        margin: 0;
+        padding: 0;
+        
+    
+    }
+    
+    body {
+        height: 100vh;
+        background: linear-gradient(rgb(0,0,128), rgb(0,0,0));
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-size: 100%;
+        position: relative;
+    }
+    
+    .container {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .titlediv {
+        background-color: darkgrey;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color:rgb(32, 31, 31);
+        height: 50px;
+        gap: 20px;
+        min-width: 100vw;
+        font-size: 10px;
+    }
+    
+    .titlediv img {
+        width: 100px;
+    }
+    
+    .subtitlediv {
+        margin-top: 50px;
+        display: flex;
+        justify-content: center;
+        color: white
+    }
+    
+    .vesselsdiv { 
+        display: flex;
+        gap: 25px;    
+        justify-content: center;
+        align-items: center;
+        /* border: 1px solid red; */
+        color: #fff
+    }
+    
+    .vesselsdiv img {
+        margin-top: 50px;
+        width: 100px;
+        border-radius: 5px;
+        cursor: pointer;
+       
+    
+    }
+    
+    .vesseldiv {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+    }
+    
+    .bottomdiv {
+        color: rgb(167, 152, 152);
+        position: absolute;
+        bottom: 20px;
+        left: 35vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 5px;
+    }
+    
+}
