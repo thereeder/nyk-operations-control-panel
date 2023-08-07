@@ -56,10 +56,14 @@ body {
 
 }
 
-.vesseldiv img:hover {
-    scale: 1.1;
-    opacity: 50%;
+.vesseldiv.goliath img:hover {
+    scale: 1.1;        
 }
+
+.vesseldiv.heroic img:hover {
+    scale: 1.1;
+}
+
 
 .vesseldiv {
     display: flex;
@@ -67,6 +71,19 @@ body {
     justify-content: center;
     align-items: center;
     gap: 10px;
+}
+
+.vesseldiv.king {
+    color: gray
+}
+
+.vesseldiv.king img {
+    opacity: 50%;
+}
+
+.kingtext {
+    font-size: 13px;
+    color: rgb(170, 170, 10);
 }
 
 .vesselsPlusText {
@@ -85,7 +102,7 @@ body {
 .bottomcontainer {
     /* position: absolute; */
     /* bottom: 20px; */
-    margin-top: 180px;
+    margin-top: 150px;
     display: block;
 }
 
@@ -109,7 +126,7 @@ body {
     }
     
     body {
-        height: 120vh;
+        height: 150vh;
         background: linear-gradient(rgb(0,0,128), rgb(0,0,0));
         background-repeat: no-repeat;
         background-size: cover;
@@ -155,12 +172,13 @@ body {
     
     .vesselsdiv img {
         margin-top: 50px;
-        width: 150px;
+        width: 100px;
         border-radius: 5px;
         cursor: pointer;
        
     
     }
+    
     
     .vesseldiv {
         display: flex;
