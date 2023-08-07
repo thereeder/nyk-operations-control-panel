@@ -1,11 +1,22 @@
-const kingQuestLink = () => {
-    
-    const paragraph = document.querySelector('.warningtext');
+const goliathLink = '';
+const heroicLink = '';
+const kingLink = '';
 
-    paragraph.style.display = 'block';
+const KingMessage = () => {
+    const message = document.querySelector('.kingtext');
+
+    message.style.display = 'flex';
 
     setTimeout(() => {
-        paragraph.style.display = 'none';
-
+        message.style.display = 'none';
     }, 1300)
+
+
+}
+
+const OpenGoliathReport = () => {
+
+    window.open('',
+    "_blank")
+
 }
