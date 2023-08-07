@@ -105,7 +105,7 @@ body {
     }
     
     body {
-        height: 100vh;
+        height: 150vh;
         background: linear-gradient(rgb(0,0,128), rgb(0,0,0));
         background-repeat: no-repeat;
         background-size: cover;
