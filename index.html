@@ -6,39 +6,51 @@
     <title>NYK - Vessel Panel</title>
     <link rel="stylesheet" href="styles.css">
 </head>
-<body>
-    <div class="container">        
-        <div class="titlediv">
-            <img src="./IMAGES/NYK Logo (HD).png" alt="">
-            <h1>OPERATIONS CONTROL PANEL</h1>
-        </div>    
-        <div class="subtitlediv">
-            <h2>Select Vessel:</h2>
-        </div>
-        <div class="vesselsPlusText">        
-            <div class="vesselsdiv">
+<body> 
+
+    <div class="titlediv">
+        <img src="/IMAGES/NYK Logo (HD).png" alt="">
+        <h1>OPERATIONS CONTROL PANEL</h1>
+    </div>
+
+    <div class="container">
+
+        <div class="vesselsandsubtitle">
+            <div class="subtitlediv">
+                <h2>Select Vessel:</h2>
+            </div>
+
+            <div class="vesselsPlusText">    
+
                 <div class="vesseldiv goliath">
-                    <img src="./IMAGES/GOLIATH_LEADER.jpeg" alt="" onClick="OpenGoliathReport()">
+                    <img src="/IMAGES/GOLIATH_LEADER.jpeg" alt="" onClick="OpenGoliathReport()">
                     <p>GOLIATH LEADER</p>
                 </div>
+    
                 <div class="vesseldiv heroic">
-                    <img src="./IMAGES/HEROIC_LEADER.jpeg" alt="">
+                    <img src="/IMAGES/HEROIC_LEADER.jpeg" alt="">
                     <p>HEROIC LEADER</p>
                 </div>
+    
                 <div class="vesseldiv king">
-                    <img src="./IMAGES/KING_QUEST.jpeg" alt="">
-                    <p>KING QUEST</p>
-                    <p class="kingtext">Vessel Report Under Construction</p>
-                </div>                
-            </div>            
+                    <img src="/IMAGES/KING_QUEST.jpeg" alt="" onClick="KingMessage()">
+                    <p>KING QUEST</p>                    
+                </div>     
+    
+            </div>
+        </div> 
+        <div class="kingtext">            
+            <p >Vessel Report Under Construction</p>   
+        </div>   
+        <div class="bottomcontainer">        
+            <div class="bottomdiv">
+                <p>COPYRIGHT © NYK 2023</p>
+                <p>All rights reserved</p>
+            </div>
         </div>
-    </div>
-    <div class="bottomcontainer">    
-        <div class="bottomdiv">
-            <p>COPYRIGHT © NYK 2023</p>
-            <p>All rights reserved</p>
-        </div>
-    </div>
+    </div>  
+
+    
     <script src="script.js"></script>
 </body>
 </html>
