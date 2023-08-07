@@ -109,7 +109,7 @@ body {
     }
     
     body {
-        height: 150vh;
+        height: 120vh;
         background: linear-gradient(rgb(0,0,128), rgb(0,0,0));
         background-repeat: no-repeat;
         background-size: cover;
@@ -155,7 +155,7 @@ body {
     
     .vesselsdiv img {
         margin-top: 50px;
-        width: 100px;
+        width: 150px;
         border-radius: 5px;
         cursor: pointer;
        
