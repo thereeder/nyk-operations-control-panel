@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    font-family: "Roboto", sans-serif;
     
 
 }
@@ -20,6 +21,7 @@ body {
     align-items: center;
     justify-content: center;
     color:rgb(32, 31, 31);
+    font-weight: 700;
     height: 50px;
     gap: 100px;
 }
@@ -43,7 +45,8 @@ body {
     margin-top: 50px;
     display: flex;
     justify-content: center;
-    color: white
+    color: white;
+    font-weight: 400;
 }
 
 .vesselsPlusText { 
