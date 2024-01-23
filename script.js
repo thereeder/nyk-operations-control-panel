@@ -1,6 +1,4 @@
-const goliathLink = 'https://app.powerbi.com/groups/me/reports/0bc84b68-f321-477d-b3f9-5f9500a4b2e7/ReportSection?experience=power-bi';
-const heroicLink = 'https://app.powerbi.com/groups/me/reports/aa921a29-8a78-447b-ab3b-86f3d2b3a265/ReportSection?experience=power-bi';
-const kingLink = '';
+const graceful_leader_link = 'https://app.powerbi.com/groups/ab3dbb24-3cf5-499b-8fa5-291d8cfde922/reports/c44c8367-e124-433f-92f8-143d43984c8a/ReportSection?experience=power-bi';
 
 const KingMessage = () => {
     const message = document.querySelector('.kingtext');
@@ -14,15 +12,9 @@ const KingMessage = () => {
 
 }
 
-const OpenGoliathReport = () => {
+const OpenGracefulReport = () => {
 
-    window.open(goliathLink,
+    window.open(graceful_leader_link,
     "_blank")
 
-}
-
-const OpenHeroicReport = () => {
-
-    window.open(heroicLink,
-    "_blank")
 }
