@@ -62,12 +62,8 @@ body {
 
 }
 
-.vesseldiv.goliath img:hover {
+.vesseldiv.graceful img:hover {
     scale: 1.1;        
-}
-
-.vesseldiv.heroic img:hover {
-    scale: 1.1;
 }
 
 .vesseldiv {
