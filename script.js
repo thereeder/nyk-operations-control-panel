@@ -22,8 +22,7 @@ const OpenGracefulReport = () => {
 
 
 const OpenGreenBayReport = () => {
-
+    
     window.open(green_bay_link,
-    "_blank")
-
+        "_blank")
 }
