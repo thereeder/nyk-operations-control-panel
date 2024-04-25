@@ -21,7 +21,7 @@ const OpenGracefulReport = () => {
 }
 
 
-const OpenGreenBayReport = () => {
+const OpenGreenBayReportttt = () => {
     
     window.open(green_bay_link,
         "_blank")
